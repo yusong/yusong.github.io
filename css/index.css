@@ -1,0 +1,80 @@
+body {
+	font-family: "Microsoft YaHei";
+}
+.container {
+	width: 100%;
+}
+.content {
+	width: 960px;
+	height: 660px;		
+	margin: 0 auto;
+	padding-top: 5%;
+}
+
+
+#landing-page {
+	background-image: url(../img/bg_landingpage.png);
+	height: 960px;
+}
+#logo-panel {
+	width: 960px;
+	margin: 0 auto;
+}
+#glow-1 {
+	background-image: url(../img/glow_1.png);
+	width: 699px;
+	height: 653px;
+	position: absolute;
+	left: 50%;
+	margin-left: -349px;
+	margin-top: 50px;
+}
+#glow-2 {
+	background-image: url(../img/glow_2.png);
+	width: 603px;
+	height: 538px;
+	position: absolute;
+	left: 50%;
+	margin-left: -301px;
+	margin-top: 10px;
+}
+#logo {
+	width: 227px;
+	height: 237px;
+	position: absolute;
+	left: 50%;
+	margin-left: -113px;
+	margin-top: 230px;
+}
+#info {
+	left: 60px;
+	width: 340px;
+	position: relative;
+	display: inline;
+	float: left;
+	margin: 480px 10px 0 10px;
+	color: white;
+	text-align: right;
+}
+#social {
+	left: 180px;
+	width: 340px;
+	position: relative;
+	display: inline;
+	float: left;
+	margin: 480px 10px 0 10px;
+	color: white;
+	text-align: left;
+}
+#info header, #social header {
+	font-size: 28px;
+	font-weight: bolder;
+	margin-bottom: 20px;
+}
+#social a { color: white; }
+
+
+#coder {
+	background-image: url(../img/bg_polka_2.jpg);
+	height: 50px;
+}
