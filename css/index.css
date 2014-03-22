@@ -1,69 +1,51 @@
 body {
 	font-family: "Microsoft YaHei";
+	color: white;
+}
+a {
+	text-decoration: underline;
+	color: white;
 }
 .container {
 	width: 100%;
 }
 .content {
-	width: 960px;
-	height: 660px;		
+	width: 100%;	
 	margin: 0 auto;
-	padding-top: 5%;
 }
-
 
 #landing-page {
 	background-image: url(../img/bg_landingpage.png);
-	height: 960px;
+	height: 100%;
 }
 #logo-panel {
-	width: 960px;
+	position: relative;
+	max-width: 699px;
+	min-width: 640px;
+	max-height: 653px;
 	margin: 0 auto;
+	z-index: 1;
 }
-#glow-1 {
-	background-image: url(../img/glow_1.png);
-	width: 699px;
-	height: 653px;
-	position: absolute;
-	left: 50%;
-	margin-left: -349px;
-	margin-top: 50px;
-}
-#glow-2 {
-	background-image: url(../img/glow_2.png);
-	width: 603px;
-	height: 538px;
-	position: absolute;
-	left: 50%;
-	margin-left: -301px;
-	margin-top: 10px;
-}
-#logo {
-	width: 227px;
-	height: 237px;
-	position: absolute;
-	left: 50%;
-	margin-left: -113px;
-	margin-top: 230px;
+
+.self-info {
+	position: relative;
+	width: 640px;
+	height: 200px;
+	margin-top: -80px;
+	z-index: 100;
 }
 #info {
-	left: 60px;
-	width: 340px;
-	position: relative;
+	width: 290px;
 	display: inline;
 	float: left;
-	margin: 480px 10px 0 10px;
-	color: white;
+	padding-right: 30px;
 	text-align: right;
 }
 #social {
-	left: 180px;
-	width: 340px;
-	position: relative;
+	width: 290px;
 	display: inline;
 	float: left;
-	margin: 480px 10px 0 10px;
-	color: white;
+	padding-left: 30px;
 	text-align: left;
 }
 #info header, #social header {
@@ -71,10 +53,74 @@ body {
 	font-weight: bolder;
 	margin-bottom: 20px;
 }
-#social a { color: white; }
 
 
-#coder {
-	background-image: url(../img/bg_polka_2.jpg);
-	height: 50px;
+#resume {
+	background-image: url(../img/bg_landingpage.png);
+	padding-bottom: 60px;
+}
+
+#resume>header {
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	width: 640px;
+	text-align: center;
+}
+
+#resume .content {
+	padding-top: 0px;
+	min-width: 640px;
+	max-width: 960px;
+}
+
+#resume>header h2 {
+	font-weight: bolder;
+	padding-bottom: 10px;
+}
+
+#resume ul.timeline {
+	list-style-type: none;
+	background: url("../img/vertical_line.png") repeat-y scroll 33px 0 transparent;
+	padding: 0;
+}
+
+#resume ul.timeline li {
+	position: relative;
+	margin-bottom: 30px;
+}
+
+#resume ul.timeline li article {
+	margin: 0 10px 0 100px;
+	color: white;
+	border-radius: 5px;
+	padding: 15px 30px 25px;
+}
+
+#resume ul.timeline li .number {
+	position: absolute;
+	background: url("../img/timeline_number.png") no-repeat scroll 0 0 transparent;
+	width: 56px;
+	height: 56px;
+	left: 10px;
+	line-height: 56px;
+	text-align: center;
+	color: white;
+	font-size: 18px;
+}
+
+.projects {
+	margin: 10px 0 40px 0;
+}
+
+.projects header {
+	font-size: 22px;
+	font-weight: bolder;
+	line-height: 36px;
+	padding-bottom: 5px;
+	margin-bottom: 15px;
+}
+
+.projects section {
+	font-size: 16px;
 }
