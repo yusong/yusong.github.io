@@ -15,8 +15,8 @@ require(['tools/jquery1.9.min',
 	var setBackgroundSize = function() {
 		var height = ( window.innerHeight > 800 ) ? window.innerHeight : 800;
 		$('#landing-page').css({'height': height});
-		var width = ( window.innerWidth > 640 ) ? window.innerWidth : 640;
-		$('#landing-page').css({'width': width});
+		var width = ( window.innerWidth > 640 ) ? 100% : 640;
+		$('.container').css({'width': width});
 	}		
 
 	setBackgroundSize();
