@@ -1,0 +1,12 @@
+<p>
+	{% if site.github_user %}
+		<a href="http://github.com/{{site.github_user}}" class="btn btn-dark" target="_blank">GitHub</a>
+	{% endif %}
+	{% if site.twitter_user %}
+		<a href="http://twitter.com/{{site.twitter_user}}" class="btn btn-dark" target="_blank">Twitter</a>
+	{% endif %}
+	{% if site.weibo_user %}
+		<a href="http://weibo.com/{{site.weibo_user}}" class="btn btn-dark" target="_blank">Weibo</a>
+	{% endif %}
+	<a href="{{ site.subscribe_rss }}" title="{{site.title}}" class="btn btn-dark" target="_blank">RSS</a>
+</p>
