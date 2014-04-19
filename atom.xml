@@ -4,7 +4,7 @@
   <title><![CDATA[TECHNOLOGY SHARING]]></title>
   <link href="http://yusong.github.io/atom.xml" rel="self"/>
   <link href="http://yusong.github.io/"/>
-  <updated>2014-04-19T13:08:58+08:00</updated>
+  <updated>2014-04-19T14:09:47+08:00</updated>
   <id>http://yusong.github.io/</id>
   <author>
     <name><![CDATA[yusong]]></name>
@@ -14,13 +14,11 @@
 
   
   <entry>
-    <title type="html"><![CDATA[testing 你好世界]]></title>
+    <title type="html"><![CDATA[Hello World]]></title>
     <link href="http://yusong.github.io/blog/2014/04/19/title/"/>
     <updated>2014-04-19T01:43:18+08:00</updated>
     <id>http://yusong.github.io/blog/2014/04/19/title</id>
-    <content type="html"><![CDATA[<h3>hello world</h3>
-
-<p>what a happy day</p>
+    <content type="html"><![CDATA[<p>what a happy day</p>
 ]]></content>
   </entry>
   
